@@ -1,3 +1,11 @@
-lane: tests do
-	scan()
+lane :tests do
+
+  UI.success “OK”
+
+  scan(
+    project: “Music.xcodeproj",
+    code_coverage: true
+  )
+  xcov 
+
 end
