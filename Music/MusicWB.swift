@@ -48,7 +48,7 @@ class MusicWB: NSObject {
             let newMusic : Music = Music(singer : singers, song : songs, id : ids)
             music.append(newMusic);
         }
-        return music;
+        return music
     }
     
     
